@@ -8,7 +8,7 @@ class BankAccount{
 		balance = balance + amount;
 	}
 	void withdraw(int amount) {
-		if(balance <= 0) {
+		if(balance < amount) {
 			System.out.println("\nNot Sufficient balance.");
 		}else if(balance <= 5000) {
 			System.out.println("\nMinimum amount to be maintained.");
