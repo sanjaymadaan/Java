@@ -9,9 +9,8 @@ package com.company.oops;
  *
  * 1. Default Constructor
  * 2. Parameterized Constructor
- * 3. Constructor Overloading
- * 4. Copy Constructor
- *
+ * 3. Copy Constructor
+ * and explains the concept of Constructor Overloading
  * Real-World Example:
  * Product represents a product available in a store.
  * ============================================================
