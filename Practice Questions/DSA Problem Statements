@@ -1,0 +1,133 @@
+# Problem Statements
+
+Topics:
+
+* Arrays
+* Binary Search
+* Programming Mathematics
+
+The problems are designed to build strong fundamentals in problem solving, algorithmic thinking, and coding interview preparation.
+
+---
+
+# 1. Arrays
+
+| Sr. No. | Problem Title                                  | Problem Statement                                                                                                                     | LeetCode Link                                                                                                                        |
+| ------: | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+|       1 | **Sum of Array**                               | Given an array of integers, calculate and return the sum of all elements in the array.                                                | —                                                                                                                                    |
+|       2 | **Sum of Even Elements**                       | Given an array of integers, calculate the sum of all even elements present in the array.                                              | —                                                                                                                                    |
+|       3 | **Reverse Array**                              | Given an array, reverse the order of its elements. The first element should become the last element and vice versa.                   | —                                                                                                                                    |
+|       4 | **Move Zeros to End of List**                  | Given an integer array, move all `0`s to the end of the array while maintaining the relative order of the non-zero elements.          | [LeetCode 283 – Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                                             |
+|       5 | **Rotate Array by 1 Place**                    | Given an array, rotate all elements one position to the right. The last element becomes the first element.                            | [LeetCode 189 – Rotate Array](https://leetcode.com/problems/rotate-array/)                                                           |
+|       6 | **Check if Array is Sorted or Not**            | Given an array, determine whether the elements are arranged in non-decreasing order.                                                  | [LeetCode 896 – Monotonic Array](https://leetcode.com/problems/monotonic-array/)                                                     |
+|       7 | **Largest Element in the Array**               | Given an array of integers, find and return the largest element in the array.                                                         | —                                                                                                                                    |
+|       8 | **Smallest Element in the Array**              | Given an array of integers, find and return the smallest element in the array.                                                        | —                                                                                                                                    |
+|       9 | **Linear Search**                              | Given an array and a target value, search for the target using linear search. Return its index if found; otherwise return `-1`.       | —                                                                                                                                    |
+|      10 | **Count Occurrences**                          | Given an array and a target value, count how many times the target element occurs in the array.                                       | [LeetCode 34 – Find First and Last Position](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |
+|      11 | **Find the Missing Number in Array of 1 to N** | Given an array containing numbers from a specified range with one number missing, find the missing number.                            | [LeetCode 268 – Missing Number](https://leetcode.com/problems/missing-number/)                                                       |
+|      12 | **Running Sum of 1D Array**                    | Given an array, create a new array where each element is the sum of all elements from the beginning of the array up to that position. | [LeetCode 1480 – Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)                                    |
+
+---
+
+# 2. Binary Search
+
+Binary Search is an efficient searching technique that works on a sorted or appropriately structured search space. It repeatedly divides the search space into two halves, giving an `O(log n)` search time in the standard case.
+
+| Sr. No. | Problem Title                                                   | Problem Statement                                                                                                                                                                              | LeetCode Link                                                                                                                        |
+| ------: | --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+|      13 | **Basic Binary Search**                                         | Given a sorted array of integers and a target value, find the index of the target using Binary Search. Return `-1` if the target is not present.                                               | [LeetCode 704 – Binary Search](https://leetcode.com/problems/binary-search/)                                                         |
+|      14 | **Search Insert Position**                                      | Given a sorted array of distinct integers and a target value, return the index if the target exists. Otherwise, return the index where the target should be inserted to maintain sorted order. | [LeetCode 35 – Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                        |
+|      15 | **First Occurrence of Target**                                  | Given a sorted array that may contain duplicate values and a target, find the index of the first occurrence of the target. Return `-1` if it is not present.                                   | [LeetCode 34 – Find First and Last Position](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |
+|      16 | **Last Occurrence of Target**                                   | Given a sorted array that may contain duplicate values and a target, find the index of the last occurrence of the target. Return `-1` if it is not present.                                    | [LeetCode 34 – Find First and Last Position](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |
+|      17 | **First Missing Element in Sorted Array of 1 to N**             | Given a sorted array containing consecutive numbers with one or more missing values, use Binary Search to identify the first missing element.                                                  | [LeetCode 268 – Missing Number](https://leetcode.com/problems/missing-number/)                                                       |
+|      18 | **First Positive Element in Sorted Array**                      | Given a sorted array containing negative, zero, and positive values, find the index of the first positive element using Binary Search.                                                         | —                                                                                                                                    |
+|      19 | **First Element Greater Than or Equal to Target (Upper Bound)** | Given a sorted array and a target value, find the first element whose value is greater than or equal to the target.                                                                            | [LeetCode 744 – Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)   |
+|      20 | **Lower Bound**                                                 | Given a sorted array and a target value, find the first position where an element is greater than or equal to the target. If no such element exists, return the size of the array.             | [LeetCode 35 – Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                        |
+|      21 | **Peak in Mountain Array**                                      | Given a mountain array that strictly increases and then strictly decreases, find the index of the peak element.                                                                                | [LeetCode 852 – Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)                       |
+|      22 | **Local Peak in Unsorted Array**                                | Given an unsorted array, find an index of a peak element. A peak element is an element that is greater than its neighboring elements.                                                          | [LeetCode 162 – Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                 |
+|      23 | **Minimum in Rotated Sorted Array**                             | Given a sorted array that has been rotated an unknown number of times, find the minimum element using Binary Search.                                                                           | [LeetCode 153 – Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)           |
+|      24 | **Search in Rotated Sorted Array**                              | Given a rotated sorted array and a target value, search for the target and return its index. Return `-1` if the target does not exist.                                                         | [LeetCode 33 – Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                        |
+
+**Note:** In standard Binary Search terminology, **Lower Bound** is the first position containing a value `>= target`. The LeetCode Search Insert Position problem implements this same first-valid-position pattern.
+
+---
+
+# 3. Programming Maths
+
+| Sr. No. | Problem Title                                       | Problem Statement                                                                                                                                                                                               | LeetCode Link                                                                                        |
+| ------: | --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+|      25 | **Sum of Digits**                                   | Given a non-negative integer, repeatedly add its digits until a single digit remains.                                                                                                                           | [LeetCode 258 – Add Digits](https://leetcode.com/problems/add-digits/)                               |
+|      26 | **Reverse Integer**                                 | Given a signed 32-bit integer, reverse its digits. If the reversed integer falls outside the signed 32-bit integer range, return `0`.                                                                           | [LeetCode 7 – Reverse Integer](https://leetcode.com/problems/reverse-integer/)                       |
+|      27 | **Palindrome Number**                               | Given an integer, determine whether the number reads the same forward and backward.                                                                                                                             | [LeetCode 9 – Palindrome Number](https://leetcode.com/problems/palindrome-number/)                   |
+|      28 | **Count Trailing 0s in Factorial of N**             | Given an integer `n`, determine the number of trailing zeroes in `n!`.                                                                                                                                          | [LeetCode 172 – Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) |
+|      29 | **Happy Number – Slow Pointer & Fast Pointer**      | Determine whether a number is a happy number. Use the slow and fast pointer technique to detect a cycle in the sequence generated by repeatedly replacing the number with the sum of the squares of its digits. | [LeetCode 202 – Happy Number](https://leetcode.com/problems/happy-number/)                           |
+|      30 | **Print Factors of a Number – O(N)**                | Given a positive integer `N`, print all factors/divisors of `N` by checking every number from `1` to `N`.                                                                                                       | —                                                                                                    |
+|      31 | **Print Factors of a Number – O(√N)**               | Given a positive integer `N`, print all factors/divisors efficiently by checking only up to `√N`. For every divisor found, its corresponding paired divisor should also be considered.                          | —                                                                                                    |
+|      32 | **Check if Number is Perfect**                      | Given a positive integer, determine whether it is a perfect number. A perfect number is equal to the sum of its positive divisors excluding itself.                                                             | [LeetCode 507 – Perfect Number](https://leetcode.com/problems/perfect-number/)                       |
+|      33 | **Count Factors – O(√N)**                           | Given a positive integer `N`, count the total number of factors of `N` using an `O(√N)` approach.                                                                                                               | —                                                                                                    |
+|      34 | **Check if Number is Prime – O(√N)**                | Given a positive integer `N`, determine whether it is a prime number. Use divisibility checks only up to `√N`.                                                                                                  | —                                                                                                    |
+|      35 | **Print All Prime Numbers from 1 to N – O(N√N)**    | Given an integer `N`, find and print all prime numbers between `1` and `N` by checking the primality of each number.                                                                                            | [LeetCode 204 – Count Primes](https://leetcode.com/problems/count-primes/)                           |
+|      36 | **Print All Prime Numbers – Sieve of Eratosthenes** | Given an integer `N`, find all prime numbers less than or equal to `N` using the Sieve of Eratosthenes algorithm.                                                                                               | [LeetCode 204 – Count Primes](https://leetcode.com/problems/count-primes/)                           |
+
+---
+
+# LeetCode Problems Used
+
+The following LeetCode problems are directly or closely related to the exercises in this repository:
+
+### Arrays
+
+1. [Move Zeroes – LeetCode 283](https://leetcode.com/problems/move-zeroes/)
+2. [Rotate Array – LeetCode 189](https://leetcode.com/problems/rotate-array/)
+3. [Monotonic Array – LeetCode 896](https://leetcode.com/problems/monotonic-array/)
+4. [Find First and Last Position – LeetCode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+5. [Missing Number – LeetCode 268](https://leetcode.com/problems/missing-number/)
+6. [Running Sum of 1d Array – LeetCode 1480](https://leetcode.com/problems/running-sum-of-1d-array/)
+
+### Binary Search
+
+7. [Binary Search – LeetCode 704](https://leetcode.com/problems/binary-search/)
+8. [Search Insert Position – LeetCode 35](https://leetcode.com/problems/search-insert-position/)
+9. [Find First and Last Position – LeetCode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+10. [Find Smallest Letter Greater Than Target – LeetCode 744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
+11. [Peak Index in a Mountain Array – LeetCode 852](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+12. [Find Peak Element – LeetCode 162](https://leetcode.com/problems/find-peak-element/)
+13. [Find Minimum in Rotated Sorted Array – LeetCode 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+14. [Search in Rotated Sorted Array – LeetCode 33](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+
+### Programming Maths
+
+15. [Add Digits – LeetCode 258](https://leetcode.com/problems/add-digits/)
+16. [Reverse Integer – LeetCode 7](https://leetcode.com/problems/reverse-integer/)
+17. [Palindrome Number – LeetCode 9](https://leetcode.com/problems/palindrome-number/)
+18. [Factorial Trailing Zeroes – LeetCode 172](https://leetcode.com/problems/factorial-trailing-zeroes/)
+19. [Happy Number – LeetCode 202](https://leetcode.com/problems/happy-number/)
+20. [Perfect Number – LeetCode 507](https://leetcode.com/problems/perfect-number/)
+21. [Count Primes – LeetCode 204](https://leetcode.com/problems/count-primes/)
+
+---
+
+# Learning Objectives
+
+By completing these problems, students will practice:
+
+* Array traversal
+* Array manipulation
+* Searching techniques
+* Prefix sums
+* Linear Search
+* Binary Search
+* Lower Bound and Upper Bound
+* First and Last Occurrence
+* Rotated Sorted Arrays
+* Peak Element problems
+* Number manipulation
+* Digit extraction
+* Factorization
+* Prime number detection
+* Time complexity analysis
+* Sieve of Eratosthenes
+* Slow and Fast Pointer technique
+
+---
+
