@@ -47,26 +47,22 @@ public class Unique1CouponCodeRegistry {
 		int numberofcoupons = scanner.nextInt();
 		
 		for(int i = 0; i < numberofcoupons; i++) {
-			scanner.next();
+		//	scanner.next();
 			String name = scanner.next();
-			scanner.next();
+		//	scanner.next();
 			double discount = scanner.nextDouble();
 
 			DiscountCoupon obj = new DiscountCoupon(name, discount);
 			set.add(obj);
 		}
 		
-		System.out.println("Total Unique Coupons: " + set.size());
-		String query = scanner.next();
+		//String query = scanner.next();
 		String couponName = scanner.next();
 		
-		if(query.equals("couponCode")) {
+		DiscountCoupon obj1 = new DiscountCoupon(couponName, 0);
+		System.out.println("Total Unique Coupons: " + set.size());
+		System.out.println("Coupon Present: " + set.contains(obj1));
 			
-			DiscountCoupon obj1 = new DiscountCoupon(couponName, 0);
-			
-			System.out.println("Coupon Present: " + set.contains(obj1));
-			
-		}
 	}
 }
 
@@ -74,15 +70,21 @@ public class Unique1CouponCodeRegistry {
 Test Case 1:
 
 4
-couponCode First
-discountAmount 500
-couponCode Second
-discountAmount 1000
-couponCode First
-discountAmount 200
-couponCode Fourth
-discountAmount 700
-couponCode Third
+First 500
+Second 1000
+First 200
+Fourth 700
+Third
+
+
+Test Case 2:
+
+4
+First 500
+Second 1000
+Third 200
+Fourth 700
+Third
 
 
 */
